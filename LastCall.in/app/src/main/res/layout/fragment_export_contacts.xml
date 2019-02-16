@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.inoek.apps.venuser.lastcallin.export_contacts">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Appropriate Actions"
+        android:id="@+id/path"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="@color/colorName" />
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:id="@+id/open_folder"
+        android:text="Open Containing Folder" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:id="@+id/export_contacts"
+        android:text="Export Contacts"
+        android:drawableLeft="@drawable/ic_export_logs" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:id="@+id/export_callLogs"
+        android:text="Export Call Logs"
+        android:drawableLeft="@drawable/ic_export_logs" />
+
+    <Button
+        android:id="@+id/cloud_export"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:drawableLeft="@drawable/ic_cloud_upload_black_24dp"
+        android:text="Cloud Backup (PRO)" />
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dialer"
+            android:icon="@drawable/ic_dialpad"
+            android:title="Dialer" />
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/ic_contacts"
+            android:title="Contacts" />
+        <item
+            android:id="@+id/nav_favourites"
+            android:icon="@drawable/ic_favorite"
+            android:title="Favourites" />
+        <item
+            android:id="@+id/nav_logs"
+            android:icon="@drawable/ic_logs"
+            android:title="Logs" />
+        <item
+            android:id="@+id/nav_statistics"
+            android:icon="@drawable/ic_stats_dots"
+            android:title="Statistics" />
+    </group>
+
+    <item android:title="Advanced Options">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_backup"
+                android:icon="@drawable/ic_backup"
+                android:title="Backup" />
+            <item
+                android:id="@+id/nav_restore"
+                android:icon="@drawable/ic_restore"
+                android:title="Restore" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Information" android:visible="true">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:visible="false"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about"
+                android:visible="true"
+                android:title="About" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

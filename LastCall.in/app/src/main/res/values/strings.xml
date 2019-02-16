@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">LastCall.in</string>
+    <string name="app_email">ask@lastcall.in</string>
+    <string name="title_activity_base">LastCall.in</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Sync Contacts</string>
+    <string name="erase">Erase</string>
+    <string name="descr_image">Image</string>
+    <string name="add_to_favourites">Set as favourite</string>
+    <string name="remove_from_favourites">Remove from favourites</string>
+    <string name="load_more">100+</string>
+    <string-array name="positive_options">
+        <item>@string/add_to_favourites</item>
+    </string-array>
+    <string-array name="negative_options">
+        <item>@string/remove_from_favourites</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="aboutString">This App is Free Version of LastCall.in.
+        \nPRO Version will be available soon. \nStay updated. \n Version: 1.1</string>
+</resources>
